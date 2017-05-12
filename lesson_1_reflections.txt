@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Es de gran utilidad debido a que comparas el codigo que tenias con el nuevo codigo al mismo tiempo, sin la dificultad de analizar todo el documento, pues solo analizas las partes que cambian. Así ahorras tiempo valioso y es menos tedioso.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Porque al programar, generas varias versiones de tu codigo y muchas veces solo son pruebas y a la siguiente version lo quitas, pero mas adelante te puede ser de utilidad y ya no lo tienes. De igual forma te permite tener la seguridad de trabajar sin miedo a hacer un cambio permanente y que no recuerdes como funcionaba bien antes
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Las ventajas es que tu lo guardas cuando quieras, en codigo esto es fundamental porque a veces modificas pero no compila o no funciona bien. La desventaja es que tu tienes que tener el control de guardar y se te puede olvidar hacerlo o hacerlo cuando no sea necesario. Pero en general, creo que es mejor hacerlo manualmente
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Google Docs te permite tratar cada archivo por separado o a la vez, porque maneja generalmente documentos (paqueteria de Office), y solo puedes estar atento uno a la vez. Mientras que Git es enfocado a codigo, por lo que, lo usual es editar uno o varios archivos a la vez. Es por eso que cada plataforma funciona de forma diferente
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log = Muestra todos los commits del git de los archivos, con su ID (en verde) y otra informacion en orden ascendente
+Git diff = git diff ID_Archivo1 ID_Archivo2 , muestra las lineas eliminadas en rojo y las agregadas en verde
+
+How might using version control make you more confident to make changes that could break something?
+
+Porque en cualquier momento me puedo regresar a una version que si servia y volver a partir de ahi
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Para programar en SolexVintel, hacer colaboraciones con el equipo de desarrollo, modificaciones, etc.

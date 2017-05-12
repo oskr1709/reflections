@@ -1,0 +1,7 @@
+What happends when you initialize a repository? Why do you need to do it?
+
+Crea carpeta ".git" pero no crea ningun commit aun. Necesito hacerlo para crear un historial de modificaciones al codigo
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Porque es una etapa intermedia que conecta a ambos, por lo tanto no esta en ninguno de los dos pero los comunica. Es de gran valor porque cualquier cambio puede quedar pendiente en la Staging Area y en caso de arrepentirse se puede regresar al working directory solamente sin que se cree en el repository

@@ -5,3 +5,9 @@ Cuando estas en otra computadora o colaborando con otro usuario
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Porque quiza no has acabado una version o no funciona del todo correctamente
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches = Divisiones dentro de un mismo repositorio, no tiene nada que ver con GitHub (Version alterna de codigo)
+Clones = Copia repositorio de GitHub a local o de local a local (Modificar de forma local)
+Forks = Copia repositorio de GitHub a GitHub (Codigo alguien externo que no tienes permiso de modificar el original)

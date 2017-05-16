@@ -5,3 +5,23 @@ Crea carpeta ".git" pero no crea ningun commit aun. Necesito hacerlo para crear 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Porque es una etapa intermedia que conecta a ambos, por lo tanto no esta en ninguno de los dos pero los comunica. Es de gran valor porque cualquier cambio puede quedar pendiente en la Staging Area y en caso de arrepentirse se puede regresar al working directory solamente sin que se cree en el repository
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Verificarlo con git diff y git diff --staged y ver que cambios realmente se hicieron
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Puede ser util cuando quieres mantener una version original y hacer pruebas con otras versiones. Puede servir para cambiar entre uno y otro siendo de forma muy rapida
+
+How do the diagramas help you visualize the branch structure?
+
+Son de mucha utilidad ya que ayudan a ahorrar tiempo pues se ve toda la historia de las branches
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Combina los resultados de los archivos de la punta. Porque tiene dos padres (archivos anteriores a cada rama)
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Ventaja: Ahorra mucho tiempo. Desventaja: No sabe como hacerlo correctamente a veces

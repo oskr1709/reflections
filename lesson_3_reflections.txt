@@ -11,3 +11,7 @@ Describe the differences between forks, clones, and branches. When would you use
 Branches = Divisiones dentro de un mismo repositorio, no tiene nada que ver con GitHub (Version alterna de codigo)
 Clones = Copia repositorio de GitHub a local o de local a local (Modificar de forma local)
 Forks = Copia repositorio de GitHub a GitHub (Codigo alguien externo que no tienes permiso de modificar el original)
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Tener la certeza de estar trabajando sobre la version actualizada
